@@ -1,0 +1,31 @@
+{
+  "name": "client-parse-api",
+  "version": "0.0.1",
+  "description": "Cliente para la API Rest de http://www.parse.com",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/carlosvillu/client-parse-api.git"
+  },
+  "keywords": [
+    "parse.com",
+    "client",
+    "rest"
+  ],
+  "author": "Carlos Villuendas",
+  "license": "MIT",
+  "dependencies": {
+    "request": "~2.12.0"
+  },
+  "devDependencies": {
+    "mocha": "1.7.4",
+    "should": "1.2.1",
+    "coffee-script": "*"
+  }
+}
