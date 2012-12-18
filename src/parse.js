@@ -14,7 +14,6 @@ var Parse = function( app_key, rest_app_key )
 Parse.prototype.createInstance = function( type )
 {
   var Klass,
-      instance,
       instances = {
         ParseObject: ParseObject
       };
